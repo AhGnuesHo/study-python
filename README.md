@@ -16,8 +16,6 @@
 3. 백준 풀기(?)
 
 
-____
-
 |날짜|내용|백준|
 |------|---|---|
 |0511|[자료형](https://wikidocs.net/11)|[고양이](https://www.acmicpc.net/problem/10171),[새싹](https://www.acmicpc.net/problem/25083),[사칙연산](https://www.acmicpc.net/problem/10869)|
