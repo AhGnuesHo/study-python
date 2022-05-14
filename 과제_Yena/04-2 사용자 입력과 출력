@@ -1,0 +1,29 @@
+>>> a=input()
+Life is too short, you need python
+>>> a
+'Life is too short, you need python'
+>>> number=input("숫자를 입력하세요:")
+숫자를 입력하세요:3
+>>> print(number)
+3
+>>> type(number)
+<class 'str'>
+>>> a=123
+>>> print(a)
+123
+>>> a="Python"
+>>> print(a)
+Python
+>>> a=[1,2,3]
+>>> print(a)
+[1, 2, 3]
+>>> print("life" "is" "too short")
+lifeistoo short
+>>> print("life"+"is"+"too short")
+lifeistoo short
+>>> print("life", "is", "too short")
+life is too short
+>>> for i in range(10):
+...     print(i, end='')
+...
+0123456789>>>
