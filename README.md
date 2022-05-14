@@ -3,7 +3,7 @@
 
 
 ## 참여자 🧑‍💻
-- 금 : [오승하](https://github.com/AhGnuesHo),
+- 금 : [오승하](https://github.com/AhGnuesHo),[박정원](https://github.com/jpark630)
 - 일 :
 
 
