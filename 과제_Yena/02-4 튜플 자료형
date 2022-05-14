@@ -1,0 +1,31 @@
+>>> t1=()
+>>> t2=(1,)
+>>> t3=(1,2,3)
+>>> t4=1,2,3
+>>> t5=('a','b',('ab','cd'))
+>>> t1=(1,2,'a','b')
+>>> del t1[0]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object doesn't support item deletion
+>>> t1=(1,2,'a','b')
+>>> t1[0]='c'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object does not support item assignment
+>>> t1=(1,2,'a','b')
+>>> t1[0]
+1
+>>> t1[3]
+'b'
+>>> t1=(1,2,'a','b')
+>>> t1[1:]
+(2, 'a', 'b')
+>>> t1=(1,2,'a','b')
+>>> t2=3,4
+>>> t1+t2
+(1, 2, 'a', 'b', 3, 4)
+>>> t1*2
+(1, 2, 'a', 'b', 1, 2, 'a', 'b')
+>>> len(t1)
+4
