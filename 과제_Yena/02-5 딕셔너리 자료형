@@ -1,0 +1,87 @@
+>>> dic={'name':'pey','phone':'0119993323','birth':'1118'}
+>>> a={1:'hi'}
+>>> a={'a':[1,2,3]}
+>>> a={1:'a'}
+>>> a[2]='b'
+>>> a
+{1: 'a', 2: 'b'}
+>>> a['name']='pey'
+>>> a
+{1: 'a', 2: 'b', 'name': 'pey'}
+>>> a[3]=[1,2,3]
+>>> a
+{1: 'a', 2: 'b', 'name': 'pey', 3: [1, 2, 3]}
+>>> dela[1]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'dela' is not defined
+>>> del a[1]
+>>> a
+{2: 'b', 'name': 'pey', 3: [1, 2, 3]}
+>>> grade={'pey':10, 'julliet':99}
+>>> grade['pey']
+10
+>>> grade['julliet']
+99
+>>> a={1:'a',2:'b'}
+>>> a[1]
+'a'
+>>> a[2]
+'b'
+>>> a={'a':1, 'b':2}
+>>> a['a']
+1
+>>> a['b']
+2
+>>> dic = {'name':'pey', 'phone':'0119993323','birth':'1118'}
+>>> dic['name']
+'pey'
+>>> dic['phone']
+'0119993323'
+>>> dic['birth']
+'1118'
+>>> a={1:'a',1:'b'}
+>>> a
+{1: 'b'}
+>>> a={[1,2]:'hi'}
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unhashable type: 'list'
+>>> a={'name':'pey','phone':'0119993323','birth':'1118'}
+>>> a.keys()
+dict_keys(['name', 'phone', 'birth'])
+>>> for k in a.keys():
+...     print(k)
+...
+name
+phone
+birth
+>>> list(a.keys())
+['name', 'phone', 'birth']
+>>> a.values()
+dict_values(['pey', '0119993323', '1118'])
+>>> a.items()
+dict_items([('name', 'pey'), ('phone', '0119993323'), ('birth', '1118')])
+>>> a.clear()
+>>> a
+{}
+>>> a={'name':'pey''phone':'0119993323','birth':'1118'}
+  File "<stdin>", line 1
+    a={'name':'pey''phone':'0119993323','birth':'1118'}
+                          ^
+SyntaxError: invalid syntax
+>>> a.get('name')
+>>> a={'name':'pey','phone':'0119993323','birth':'1118'}
+>>> print(a.get('nokey'))
+None
+>>> print(a['nokey'])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'nokey'
+>>> a.get('foo','bar')
+'bar'
+>>> a={'name':'pey','phone':'0119993323','birth':'1118'}
+>>> 'name' in a
+True
+>>> 'eamil' in a
+False
