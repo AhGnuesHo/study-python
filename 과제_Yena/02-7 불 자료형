@@ -1,0 +1,38 @@
+>>> a=True
+>>> b=False
+>>> type(a)
+<class 'bool'>
+>>> type(b)
+<class 'bool'>
+>>> 1==1
+True
+>>> 2>1
+True
+>>> 2<1
+False
+>>> a=[1,2,3,4]
+>>> while a:
+...     print(a.pop())
+...
+4
+3
+2
+1
+>>> if[1,2,3]:
+...     print("참")
+... else:
+...     print("거짓")
+...
+참
+>>> bool('python')
+True
+>>> bool('')
+False
+>>> bool([1,2,3])
+True
+>>> bool([])
+False
+>>> bool(0)
+False
+>>> bool(3)
+True
