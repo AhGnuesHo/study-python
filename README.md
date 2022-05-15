@@ -4,7 +4,7 @@
 
 ## 참여자 🧑‍💻
 - 금 : [오승하](https://github.com/AhGnuesHo),[박정원](https://github.com/jpark630)
-- 일 :
+- 일 : [이승주](https://github.com/Seungju99)
 
 
 ## 참고자료 📖
