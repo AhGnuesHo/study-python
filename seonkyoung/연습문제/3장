@@ -1,0 +1,132 @@
+def is_odd(a):
+     if a%2==1:
+         return '홀수입니다'
+     else:
+         return '짝수 입니다'
+
+a=is_odd(4)
+print(a)
+   
+# def avg(*avg):
+#     n=len(avg)
+#     sum=0
+#     for i in range(n):
+#         sum+=avg[i]
+    
+#     return sum/n
+# a=map(int,input().split())
+# print(avg(*a))
+# print(avg(1,2,3))
+# input1=input('첫번째 숫자')
+# input2=input('두번째 숫자')
+# total=int(input1)+int(input2)
+# print('두수의 합은 %d 입니다'%total)
+
+# with open("text.txt",'w') as f1:
+#     f1.write("Life is too short")
+
+# f2=open("text.txt",'r')
+# print(f2.read())
+# #파일을 닫아야 다음게 실행됨.
+
+# f=open("text.txt",'a')
+# f.write("지금 입력했습니다")
+# f.close()
+
+# f2=open("text.txt",'r')
+# print(f2.read())
+# 
+# 
+#f=open("text.txt",'r') 
+# a=f.read()#=전문장을 리스트로
+# b=a.replace('python','java')
+# print(b)  
+    
+    
+
+
+# from nbformat import write
+
+
+# with open("text.txt",'r+') as f:
+    
+#     a=f.read()
+#     b=a.replace('java','python')
+    
+    
+# num=int(input())
+# nums=list(map(int,input().split()))
+# max=min=nums[0]
+# for i in range(1,num):
+#     if max<nums[i]:
+#         max=nums[i]
+#     if min>nums[i]:
+#         min=nums[i]
+# print(min,max)
+
+
+
+# num=int(input())
+# nums=list(map(int,input().split()))
+
+# b=sorted(nums)
+# print(b[0],b[-1])
+
+# a=int(input())
+# b=int(input())
+# # c=int(input())
+# result=a*b*c
+
+# b=list(map(int,str(result)))
+# count_nums=0
+
+# for i in range(10):
+#     for j in range(0,len(b)):
+#         if i==b[j]:
+#             count_nums+=1
+#     print(count_nums)
+#     count_nums=0
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# mul = a*b*c
+# arr = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+# while(mul>0):
+#     arr[mul%10] += 1
+#     mul=mul // 10
+# for i in range(0, 10):
+#     print(arr[i])
+    
+# a=int(input())
+# b=int(input())
+# c=int(input())
+
+# result=a*b*c
+# result=16890
+# d=list(map(int,str(result)))
+# d=[1,6,8,9,0]
+# count_num=0
+
+# for i in range(10):
+#     for j in range(0,len(d)):
+#         if i==d[j]:
+#             count_num+=1
+    
+#     print(count_num)
+#     count_num=0
+    
+num=int(input())
+for i in range(num):
+    #b=list(map(str,input()))
+    b=input() #이렇게 해도 기본적으로 문자열로 받아들여짐!
+    score=1
+    result=0
+    for j in range(len(b)):
+        if b[j]=='O':
+            result+=score
+            score+=1
+        else:
+            score=1
+    print(result)
+            
